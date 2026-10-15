@@ -21,3 +21,11 @@
 
 - Report the branch, commits made, verification results, and any remaining worktree changes.
 - Prefer leaving the repository clean and the task's temporary workspace free of unnecessary files.
+
+## Documentation and Development Context
+
+- `docs/` documents the **current application**: its behavior, APIs, architecture, configuration, and usage. Keep it consistent with the implementation.
+- `context/` stores **development knowledge**: external references, research and discussion summaries, implementation plans, design decisions, and terminology.
+- Before implementing a task, consult relevant materials in `context/`. Use `context/README.md` as an index; avoid reading unrelated documents.
+- Distinguish verified facts, hypotheses, proposals, and accepted decisions. Preserve source references and summarize lengthy discussions when appropriate.
+- Update affected plans, decisions, and documentation when implementation or understanding changes. Do not treat outdated plans as authoritative.
