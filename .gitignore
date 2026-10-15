@@ -1,0 +1,13 @@
+
+# Agent workspace
+/.scratch/
+/.worktrees/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
