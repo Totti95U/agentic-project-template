@@ -4,7 +4,7 @@
 
 - All disposable scripts, logs, debug outputs, and intermediate artifacts must go under `.scratch/<task-slug>/`.
 - Do not create ad-hoc temporary directories elsewhere in the repository.
-- Promote reusable experiments to `experiments/`, regression tests to `tests/`, and lasting findings to `docs/`.
+- Promote reusable experiments to `experiments/`, regression tests to `test/`, and lasting findings to `docs/`.
 - Clean up temporary files created by the current task when they are no longer needed. Never delete unrelated or pre-existing files.
 
 ## Git Workflow
